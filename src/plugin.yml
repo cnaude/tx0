@@ -1,6 +1,6 @@
 name: tx0
 main: me.cnaude.plugin.tx0
-version: 1.0
+version: 1.0.1
 description: Shorten URL's using SDF's URL shortening service.
 
 commands:

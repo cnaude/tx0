@@ -38,7 +38,7 @@ public class tx0 extends JavaPlugin {
     public void translateURL(String s, String sender) {
         try {
             // Construct data            
-            if (!s.toLowerCase().startsWith("http://")) {                
+            if (!s.toLowerCase().startsWith("http")) {                
                 s = "http://" + s;
             }         
             getServer().broadcastMessage(sender + ChatColor.WHITE + ": " + ChatColor.YELLOW + s);
